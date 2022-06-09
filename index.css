@@ -1,0 +1,496 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100%;
+    height: 1040px;
+    background: rgba(19 19 20 / 64%) url(images/img-1.png);
+    background-blend-mode: darken;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.logo h1{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans Regular';
+    font-weight: 400;
+}
+.logo {
+    margin-top: 56px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu{
+    margin-top: 69px;
+}
+.menu ul li a {
+    text-decoration: none;
+    margin-left: 34px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+}
+.icons{
+    margin-top: 69px;
+}
+.icons i {
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.homepage-title {
+    text-align: center;
+    margin-top: 314px;
+}
+
+.homepage-title h2 {
+    font-size: 60px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans Regular';
+    color: white;
+    font-weight: 100;
+}
+
+.homepage-title p {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 75px;
+    color: white;
+    font-family: Georgia;
+}
+.homepage-title button {
+    margin-top: 43px;
+    color: white;
+    padding: 20px 45px;
+    font-size: 20px;
+    border: none;
+    background-color: #ED7E9E;
+    font-family: Georgia;
+}
+.poster {
+    max-width: 1180px;
+    display: flex;
+    padding-top: 99px;
+    margin: auto;
+    align-items: center;
+}
+.poster-heading h3 {
+    font-size: 38px;
+    font-family: Georgia;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.poster-heading p {
+    line-height: 30px;
+    margin-right: 150px;
+    padding-top: 32px;
+    font-size: 15px;
+    font-family: Georgia;
+    color: #8B8B8B;
+}
+
+.poster button {
+    margin-top: 43px;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    border: none;
+    background-color: #ED7E9E;
+    font-family: Georgia;
+}
+
+.picture {
+    background-image: url(images/img2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 76px;
+    background-position-y: 57px;
+}
+
+.services {
+    display: flex;
+    margin: auto;
+    max-width: 1180px;
+    flex-direction: column;
+    margin-top: 99px;
+}
+
+.services h3 {
+    text-align: center;
+    color: #505050;
+    font-weight: 100;
+    font-size: 38px;
+    margin-bottom: 70px;
+}
+
+.top-section,
+.left,
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-section {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.services p {
+    line-height: 32px;
+    font-size: 15px;
+    padding-top: 17px;
+    padding-right: 49px;
+    color: #8B8B8B;
+    font-family: Georgia;
+}
+
+.services h5 {
+    font-size: 24px;
+    font-family: Georgia;
+    text-transform: capitalize;
+    color: #505050;
+}
+
+.services img {
+    margin-right: 32px;
+}
+.services i{
+    background-color: #ED7E9E;
+    text-align: center;
+    width: 111px;
+    padding: 33px;
+    height: 111px;
+    border-radius: 58px;
+    font-size: 46px;
+    color: white;
+}
+.right div:nth-child(2){
+    padding-left: 31px;
+}
+.left div:nth-child(2){
+    padding-left: 31px;
+}
+.invitation-date {
+    text-align: center;
+    background-color: #FAFAFA;
+    padding-bottom: 186px;
+    margin-top: 149px;
+}
+
+.invitation {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+ .heading{
+    padding-top: 130px;
+    padding-bottom: 52px;
+}
+
+.invitation h5 {
+    text-transform: capitalize;
+    font-size: 35px;
+    color: #736e6e;
+    font-weight: 100;
+}
+
+.invitation h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ED7E9E;
+}
+
+.invitation p {
+    padding-top: 26px;
+    line-height: 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #938e8e;
+}
+
+.invitation p span {
+    font-size: 33px;
+    color: #938e8e;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.person {
+    background-image: url(images/person.png);
+}
+
+.women {
+    background-image: url(images/woman.png);
+}
+
+.women,
+.person {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 63px;
+    background-position-y: 50px;
+}
+
+.heading p {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #505050;
+    font-weight: 400;
+}
+
+.heading h4 {
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-size: 40px;
+    color: #505050;
+    font-weight: 400;
+}
+
+.names {
+    max-width: 1180px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.names h2 {
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Lucida Sans Regular';
+    color: #ED7E9E; 
+}
+.names h2:first-child{
+    margin-left: 10%;
+}
+.names h2:nth-child(2){
+    margin-right: 10%;
+}
+.gallery{
+    max-width: 1180px;
+    margin: auto;
+    margin-bottom: 186px;
+}
+.gallery h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 38px;
+    font-family: Georgia;
+    font-weight: 100;
+    padding-top: 121px;
+    padding-bottom: 79px;
+    color: #505050;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+   
+}
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.col-2 img:nth-child(2) {
+    margin-top: 30px;
+}
+
+.testimonial {
+    background: rgba(19 19 20 / 64%) url(images/background.png);
+    background-blend-mode: darken;
+    background-size: cover;
+    text-align: center;
+}
+
+.testimonial h1 {
+    font-size: 60px;
+    font-family: Georgia;
+    font-weight: 100;
+    padding-top: 294px;
+    color: white;
+}
+
+.testimonial p {
+    padding-top: 21px;
+    font-size: 40px;
+    font-family: Georgia;
+    padding-bottom: 301px;
+    color: white;
+}
+.blog{
+    max-width: 1180px;
+   margin: auto;
+}
+
+.blog h2 {
+    text-align: center;
+    font-size: 38px;
+    font-family: Georgia;
+    margin-top: 121px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #505050;
+}
+
+.blog-col {
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-col h5{
+    background-color: #ED7E9E;
+    position: relative;
+    top: 95px;
+    left: 14px;
+    text-align: center;
+    width: 83px;
+    padding: 19px;
+    height:83px;
+    border-radius: 43px;
+    font-size: 20px;
+    color: white;
+}
+.col h3 {
+    font-size: 24px;
+    font-family: Georgia;
+    color: #989898;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.col p {
+    font-size: 15px;
+    font-family: Georgia;
+    color: #989898;
+    padding-top: 19px;
+    width: 370px;
+    line-height: 28px;
+}
+.form{
+    max-width: 570px;
+    margin: auto;
+    margin-top: 121px;
+}
+.form h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: Georgia;
+    padding-bottom: 95px;
+    color: #505050;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section input {
+    font-size: 15px;
+    font-family: Georgia;
+    border: none;
+    border-bottom: 1px solid #949191;
+}
+
+.form-section input:first-child {
+    height: 43px;
+}
+
+.form-section input:nth-child(2) {
+    margin-top: 39px;
+    height: 43px;
+    padding-bottom: 30px;
+}
+
+.form-section input:nth-child(3) {
+    margin-top: 43px;
+    padding-bottom: 108px;
+}
+
+.form-section button {
+    margin: auto;
+    color: white;
+    padding: 18px 28px;
+    font-size: 18px;
+    width: 167px;
+    border: none;
+    background-color: #ED7E9E;
+    font-family: Georgia;
+    margin-top: 47px;
+}
+
+.footer {
+    background-color: #434343;
+    text-align: center;
+    color: white;
+    margin-top: 121px;
+}
+
+.footer h2 {
+    font-size: 30px;
+    font-family: 'Lucida Sans Regular';
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.footer i {
+    font-size: 20px;
+    padding-top: 54px;
+    padding-bottom: 23px;
+    padding-left: 10px;
+}
+
+.footer a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.footer-menus a {
+    color: white
+}
+
+.footer p {
+    font-size: 15px;
+    margin-top: 23px;
+    padding-bottom: 85px;
+}
+.footer-icon i{
+    background-color: #ED7E9E;
+    width: 111px;
+    padding: 33px;
+    height: 111px;
+    border-radius: 58px;
+    font-size: 46px;
+    color: white;
+    position: relative;
+    top: -48px;
+    box-shadow: 0px 0px 0px 7px;
+}
+@media (max-width:1024px) {
+    .navbar {
+        font-size: 70%;
+    }
+}
